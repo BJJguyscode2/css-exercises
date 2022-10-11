@@ -1,17 +1,18 @@
 .header  {
-  border-width:600px;  
   display:flex;
-  flex-wrap:nowrap;
   flex:1 1 0;
   flex-direction:row;
   font-family: monospace;
   background: papayawhip;
   justify-content:space-between;
+  border:30px solid white;
+  padding-right:40px;
   }
   
   .left-links{
     padding-right:10px;
-    padding-top:10px;
+    padding-top:8px;
+    margin:6px;
   }
 .logo {
   font-size: 38px;
@@ -24,7 +25,8 @@
 
 .right-links{
 padding-left:10px;
-padding-top:10px;
+padding-top:8px;
+margin:6px;
 }
 
 ul {
